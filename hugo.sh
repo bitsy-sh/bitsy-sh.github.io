@@ -16,7 +16,6 @@ build)
   docker run -it \
     -v $(pwd)/src:/src \
     -v $(pwd)/dist:/dist \
-    -p 1313:1313 \
     hugo \
     hugo \
       -d /dist \
