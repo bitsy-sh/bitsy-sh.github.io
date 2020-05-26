@@ -9,18 +9,16 @@ make)
 ;;
 
 serve)
-  docker run -it -v $(pwd)/src:/site -p 1313:1313 hugo hugo server -D
+  docker run -i -v $(pwd)/src:/src -p 1313:1313 hugo hugo server -D --bind 0.0.0.0
 ;;
 build)
-  rm -r dist/*
   echo "bitsy.sh" > dist/CNAME
   docker run -it \
-    -v $(pwd)/src:/site \
+    -v $(pwd)/src:/src \
     -v $(pwd)/dist:/dist \
     -p 1313:1313 \
     hugo \
     hugo \
-      -b https://bitsy.sh \
       -d /dist
 ;;
 --)

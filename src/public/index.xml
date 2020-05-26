@@ -3,12 +3,12 @@
   <channel>
     <title>bitsy.sh</title>
     <link>http://example.org/</link>
-    <description>bitsy.sh</description>
+    <description>Recent content on bitsy.sh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 26 May 2020 12:47:45 +0200</lastBuildDate>
     
-    <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -17,9 +17,8 @@
       <pubDate>Tue, 26 May 2020 12:47:45 +0200</pubDate>
       
       <guid>http://example.org/posts/hello-bitsy/</guid>
-      <description>&lt;p&gt;Hello&lt;/p&gt;
-&lt;p&gt;something somthisn&lt;/p&gt;
-</description>
+      <description>Hello
+something somthisn</description>
     </item>
     
   </channel>

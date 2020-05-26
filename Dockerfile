@@ -32,8 +32,8 @@ COPY --from=build /go/bin/hugo /usr/bin/hugo
 RUN apk update && \
     apk add --no-cache ca-certificates libc6-compat libstdc++ git
 
-VOLUME /site
-WORKDIR /site
+VOLUME /src
+WORKDIR /src
 
 
 RUN adduser \
