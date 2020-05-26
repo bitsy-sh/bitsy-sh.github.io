@@ -13,6 +13,7 @@ serve)
 ;;
 build)
   rm -r dist/*
+  echo "bitsy.sh" > dist/CNAME
   docker run -it \
     -v $(pwd)/src:/site \
     -v $(pwd)/dist:/dist \
