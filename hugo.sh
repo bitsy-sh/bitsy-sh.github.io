@@ -19,7 +19,11 @@ build)
     -p 1313:1313 \
     hugo \
     hugo \
-      -d /dist
+      -d /dist \
+      -b https://bitsy.sh
+;;
+publish)
+  git push origin `git subtree split --prefix dist src`:master --force
 ;;
 --)
 
