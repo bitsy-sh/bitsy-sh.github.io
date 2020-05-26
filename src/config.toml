@@ -2,3 +2,15 @@ baseURL = "https://bitsy.sh/"
 languageCode = "en-us"
 title = "bitsy.sh"
 theme = "anubis"
+
+
+
+[menu]
+  [[menu.main]]
+    name = "blog"
+    identifier = "blog"
+    url = "/blog/"
+    weight = 1
+
+[taxonomies]
+tag = "tags"

@@ -9,7 +9,7 @@ make)
 ;;
 
 serve)
-  docker run -i -v $(pwd)/src:/src -p 1313:1313 hugo hugo server -D --bind 0.0.0.0
+  docker run -i -v $(pwd)/src:/src -p 1313:1313 hugo hugo server --disableFastRender -D --bind 0.0.0.0
 ;;
 build)
   echo "bitsy.sh" > dist/CNAME
@@ -25,11 +25,8 @@ build)
 publish)
   git push origin `git subtree split --prefix dist src`:master --force
 ;;
---)
-
-    ;;
 *)
-    echo "Programming error"
-    exit 3
-    ;;
-  esac
+  docker run -i -v $(pwd)/src:/src hugo hugo "$@"
+
+;;
+esac
