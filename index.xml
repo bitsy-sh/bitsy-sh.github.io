@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>bitsy.sh</title>
-    <link>http://example.org/</link>
+    <link>https://bitsy.sh/</link>
     <description>bitsy.sh</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 26 May 2020 12:47:45 +0200</lastBuildDate>
     
-    <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bitsy.sh/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello Bitsy.sh</title>
-      <link>http://example.org/posts/hello-bitsy/</link>
+      <link>https://bitsy.sh/posts/hello-bitsy/</link>
       <pubDate>Tue, 26 May 2020 12:47:45 +0200</pubDate>
       
-      <guid>http://example.org/posts/hello-bitsy/</guid>
+      <guid>https://bitsy.sh/posts/hello-bitsy/</guid>
       <description>&lt;p&gt;Hello&lt;/p&gt;
 &lt;p&gt;something somthisn&lt;/p&gt;
 </description>
