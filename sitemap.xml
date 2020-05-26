@@ -3,22 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://bitsy.sh/blog/</loc>
+    <lastmod>2020-05-26T14:07:41+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://bitsy.sh/blog/hello-bitsy/</loc>
+    <lastmod>2020-05-26T14:07:41+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://bitsy.sh/</loc>
-    <lastmod>2020-05-26T12:47:45+02:00</lastmod>
+    <lastmod>2020-05-26T14:07:41+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://bitsy.sh/posts/hello-bitsy/</loc>
-    <lastmod>2020-05-26T12:47:45+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bitsy.sh/posts/</loc>
-    <lastmod>2020-05-26T12:47:45+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://bitsy.sh/categories/</loc>
+    <loc>https://bitsy.sh/tags/index/</loc>
   </url>
   
   <url>

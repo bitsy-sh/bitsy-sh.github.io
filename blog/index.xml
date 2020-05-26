@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>start on bitsy.sh</title>
-    <link>https://bitsy.sh/</link>
-    <description>bitsy.sh (start)</description>
+    <title>Blog on bitsy.sh</title>
+    <link>https://bitsy.sh/blog/</link>
+    <description>bitsy.sh (Blog)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 26 May 2020 14:07:41 +0000</lastBuildDate>
     
-    <atom:link href="https://bitsy.sh/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://bitsy.sh/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
