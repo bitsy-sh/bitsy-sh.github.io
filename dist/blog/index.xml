@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on bitsy.sh</title>
-    <link>https://bitsy.sh/blog/</link>
-    <description>bitsy.sh (Blog)</description>
+    <title>Blog on itsy.sh</title>
+    <link>https://itsy.sh/blog/</link>
+    <description>itsy.sh (Blog)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 26 May 2020 14:07:41 +0000</lastBuildDate>
     
-    <atom:link href="https://bitsy.sh/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://itsy.sh/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Hello bitsy.sh</title>
-      <link>https://bitsy.sh/blog/hello-bitsy/</link>
+      <title>Hello itsy.sh</title>
+      <link>https://itsy.sh/blog/hello-itsy/</link>
       <pubDate>Tue, 26 May 2020 14:07:41 +0000</pubDate>
       
-      <guid>https://bitsy.sh/blog/hello-bitsy/</guid>
+      <guid>https://itsy.sh/blog/hello-itsy/</guid>
       <description>&lt;p&gt;A few days ago i got quite inspired by &lt;a href=&#34;https://tinyprojects.dev/&#34;&gt;tinyprojects.dev&lt;/a&gt;. Not so much in the
 purpose of the site and his quest to create tiny projects. But rather doing something and not just thinking about it&amp;hellip;&lt;/p&gt;
 &lt;h3 id=&#34;some-background&#34;&gt;Some background&lt;/h3&gt;

@@ -1,6 +1,6 @@
-baseURL = "https://bitsy.sh/"
+baseURL = "https://itsy.sh/"
 languageCode = "en-us"
-title = "bitsy.sh"
+title = "itsy.sh"
 theme = "anubis"
 
 

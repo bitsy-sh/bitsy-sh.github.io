@@ -4,4 +4,4 @@ title = "start"
 +++
 
 
-The home of bitsy projects. 
+The home of Itsy projects. 
