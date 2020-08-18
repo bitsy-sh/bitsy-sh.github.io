@@ -1,6 +1,6 @@
 ---
 title: "Pingr - Monitor the health and status of your services"
-date: 2020-08-18T10:47:41Z
+date: 2020-08-18T08:47:41Z
 draft: false
 author: "Agaton Sjöberg"
 ---
@@ -10,7 +10,7 @@ to ensure that your services perform as expected. Here to help you, I present Pi
 
 <!--more-->
 
-### What is Pingr?
+### What is [Pingr](https://github.com/itsy-sh/pingr)?
 
 Pingr is designed to monitor your services and let you know whenever a service is behaving unexpectedly. It does
 so by poll and push tests. Pingr will poll your services using various different methods such as HTTP-requests or
