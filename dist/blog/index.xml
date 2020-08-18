@@ -6,10 +6,50 @@
     <description>itsy.sh (Blog)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 May 2020 14:07:41 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2020 08:47:41 +0000</lastBuildDate>
     
     <atom:link href="https://itsy.sh/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Pingr - Monitor the health and status of your services</title>
+      <link>https://itsy.sh/blog/pingr/</link>
+      <pubDate>Tue, 18 Aug 2020 08:47:41 +0000</pubDate>
+      
+      <guid>https://itsy.sh/blog/pingr/</guid>
+      <description>&lt;p&gt;With more and more of our time being spent online, we have been increasingly spoiled by low response times and
+constant uptime. To fulfil internal and external demands at businesses, it is therefore more important than ever
+to ensure that your services perform as expected. Here to help you, I present Pingr.&lt;/p&gt;
+&lt;h3 id=&#34;what-is-pingrhttpsgithubcomitsy-shpingr&#34;&gt;What is &lt;a href=&#34;https://github.com/itsy-sh/pingr&#34;&gt;Pingr&lt;/a&gt;?&lt;/h3&gt;
+&lt;p&gt;Pingr is designed to monitor your services and let you know whenever a service is behaving unexpectedly. It does
+so by poll and push tests. Pingr will poll your services using various different methods such as HTTP-requests or
+an ordinary ping. By polling every X seconds, Pingr will monitor your response times as well as any error related
+behaviour. Push tests expect your service to poll Pingr using HTTP atleast every Y seconds. In case an error is
+thrown, Pingr can contact you via email or post-hook.&lt;/p&gt;
+&lt;p&gt;At &lt;a href=&#34;https://modularfinance.se/?l=en&#34;&gt;Modular Finance&lt;/a&gt; we use Pingr in conjunction with
+&lt;a href=&#34;https://github.com/itsy-sh/callr&#34;&gt;Callr&lt;/a&gt;. Callr let’s you call someone whenever a post request is received.
+This means that Pingr can email you when minor errors occur and call you, through Callr, whenever some urgent
+error occurs etc. Being a firm that has multiple services deployed, the Pingr and Callr combo, solves the issues of
+manually monitoring the health of all these services and let’s you sleep, or not, through an entire night, knowing
+that your services are behaving as they should.&lt;/p&gt;
+&lt;h3 id=&#34;test-methods&#34;&gt;Test methods&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Poll methods&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;DNS&lt;/li&gt;
+&lt;li&gt;HTTP&lt;/li&gt;
+&lt;li&gt;Ping&lt;/li&gt;
+&lt;li&gt;Prometheus&lt;/li&gt;
+&lt;li&gt;SSH&lt;/li&gt;
+&lt;li&gt;TCP&lt;/li&gt;
+&lt;li&gt;TLS/SSL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Push methods&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;HTTP&lt;/li&gt;
+&lt;li&gt;Prometheus&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Visit our &lt;a href=&#34;https://github.com/itsy-sh/pingr&#34;&gt;github&lt;/a&gt; to learn more.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Hello itsy.sh</title>
